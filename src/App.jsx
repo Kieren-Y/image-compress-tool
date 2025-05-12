@@ -208,7 +208,7 @@ function App() {
       <header className="app-header">
         <div className="logo-container">
           <div className="logo-circle">
-            <img src="/assets/image_compress_logo.svg" alt="Image Compressor Logo" className="app-logo" />
+            <img src="/assets/image_compress_logo2.png" alt="Image Compressor Logo" className="app-logo" />
           </div>
           <h1>Image Compressor</h1>
         </div>

@@ -652,7 +652,7 @@ const BatchProcessing = ({ images, onBack, onBatchComplete, theme, settings }) =
         <button className="add-more-button" onClick={handleAddMoreImages}>
           添加更多图片
         </button>
-        <div>
+        <div className="button-group">
           <button 
             className="select-all-button" 
             onClick={() => handleToggleSelectAll(!selectAll)}
@@ -719,9 +719,17 @@ const BatchProcessing = ({ images, onBack, onBatchComplete, theme, settings }) =
         
         <div className="batch-control-buttons">
           <button className="pause-button" onClick={handlePauseProcessing}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginRight: "8px"}}>
+              <rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor" />
+              <rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor" />
+            </svg>
             暂停
           </button>
           <button className="cancel-button" onClick={handleCancelProcessing}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginRight: "8px"}}>
+              <path d="M18 6L6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M6 6L18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
             取消
           </button>
         </div>
