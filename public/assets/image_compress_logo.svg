@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular background -->
+  <circle cx="200" cy="200" r="200" fill="#121212"/>
+  
+  <!-- Image frame with gradient border -->
+  <rect x="70" y="70" width="180" height="180" rx="25" fill="none" stroke="url(#frameGradient)" stroke-width="10"/>
+  
+  <!-- Mountain inside the frame -->
+  <path d="M180 160 L120 220 L80 220 L80 230 L240 230 L240 220 L170 220 Z" fill="url(#mountainGradient)"/>
+  <path d="M240 130 L170 200 L100 130 L80 170 L80 230 L240 230 Z" fill="url(#mountainGradient2)"/>
+  
+  <!-- Sun/circle in the corner -->
+  <circle cx="120" cy="110" r="20" fill="#b64fc8"/>
+  
+  <!-- Side interface elements -->
+  <rect x="265" y="80" width="65" height="12" rx="6" fill="url(#uiGradient)" />
+  <rect x="265" y="105" width="40" height="8" rx="4" fill="url(#uiGradient)" />
+  <rect x="265" y="125" width="50" height="8" rx="4" fill="url(#uiGradient)" />
+  <rect x="265" y="145" width="55" height="8" rx="4" fill="url(#uiGradient)" />
+  <rect x="265" y="165" width="35" height="8" rx="4" fill="url(#uiGradient)" />
+  <rect x="265" y="185" width="45" height="8" rx="4" fill="url(#uiGradient)" />
+  <rect x="330" y="145" width="20" height="35" rx="4" fill="url(#uiGradient)" />
+  
+  <!-- Speech bubble -->
+  <path d="M285 210 L315 210 Q325 210 325 220 L325 230 Q325 240 315 240 L270 240 Q260 240 260 230 L260 220 Q260 210 270 210 L275 210 L280 195 Z" fill="url(#uiGradient)" />
+
+  <!-- White text at the bottom -->
+  <text x="200" y="300" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white" text-anchor="middle">IMAGE</text>
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">COMPRESSOR</text>
+
+  <!-- Gradients definitions -->
+  <defs>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f72585" />
+      <stop offset="50%" stop-color="#b64fc8" />
+      <stop offset="100%" stop-color="#4cc9f0" />
+    </linearGradient>
+    
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4361ee" />
+      <stop offset="100%" stop-color="#4cc9f0" />
+    </linearGradient>
+    
+    <linearGradient id="mountainGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a0ca3" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+    
+    <linearGradient id="uiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b64fc8" />
+      <stop offset="50%" stop-color="#4361ee" />
+      <stop offset="100%" stop-color="#4cc9f0" />
+    </linearGradient>
+  </defs>
+</svg> 
